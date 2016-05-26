@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/mark_flippant"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:id="@+id/new_game_button"
+        android:layout_gravity="center"
+        android:layout_width="144dp"
+        android:layout_height="@dimen/button_height_large"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/button_black_selector"
+        android:text="@string/new_game_string"
+        android:onClick="onNewGame"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/button_text_size" />
+    <Button
+        android:id="@+id/join_game_button"
+        android:layout_gravity="center"
+        android:layout_width="144dp"
+        android:layout_height="@dimen/button_height_large"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_black_selector"
+        android:text="@string/join_game_string"
+        android:onClick="onJoinGame"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/button_text_size" />
+    <Button
+        android:id="@+id/game_rate_button"
+        android:layout_gravity="center"
+        android:layout_width="144dp"
+        android:layout_height="@dimen/button_height_large"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_black_selector"
+        android:text="@string/game_rate_string"
+        android:onClick="onRate"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/button_text_size" />
+    <Button
+        android:id="@+id/game_settings_button"
+        android:layout_gravity="center"
+        android:layout_width="144dp"
+        android:layout_height="@dimen/button_height_large"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_black_selector"
+        android:onClick="onSettings"
+        android:text="@string/game_settings_string"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/button_text_size" />
+</LinearLayout>

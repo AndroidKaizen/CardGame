@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">Flippant</string>
+
+    <!-- Landing -->
+
+    <string name="lnd_connect_with_facebook">Connect with Facebook</string>
+    <string name="lnd_have_account">Have an account</string>
+    <string name="lgn_have_not_account">Have no account</string>
+    <string name="lnd_sign_up">Sign Up with Email</string>
+    <string name="lnd_no_app_version">Couldn\'t get app version</string>
+    <string name="lnd_version">v. %1$s</string>
+
+    <!-- Login -->
+    <string name="lgn_forgot_password">Forgot password?</string>
+    <string name="lgn_password_hint">Enter Your Password</string>
+    <string name="lgn_confirm_password_hint">Confirm Password</string>
+    <string name="lgn_log_in_with_facebook">Log in with Facebook</string>
+    <string name="lgn_login">Log In</string>
+    <string name="lgn_email_hint">Email</string>
+    <string name="lgn_email_username_hint">Email or User Name</string>
+    <string name="lgn_remember_me">Remember Me</string>
+    <string name="lgn_error">This username has not authenticated yet, please check your credentials</string>
+    <string name="relgn_success">Relogin was successfully executed after  losing the Internet connection</string>
+    <string name="relgn_fail">Relogin was failed. Forse app restart will be executed</string>
+    <string name="relgn_forse_message">Relogin was failed.Are you agree to start forse relogin which restart whole app</string>
+    <string name="dont_forget_relogin">Please don\'t forget to relogin to restore all app features</string>
+
+    <!-- Sign Up -->
+    <string name="sup_username_hint">Type Your Name Here</string>
+    <string name="sup_email_hint">Enter Your Email Address</string>
+    <string name="sup_choose_user_picture">Choose user picture</string>
+    <string name="sup_sign_up">Start</string>
+
+    <!-- New Game Activity Menu-->
+    <string name="title_match_phone">Match Phone</string>
+    <string name="title_all_user">All User</string>
+
+    <!-- Game Start -->
+    <string name="new_game_string">New Game</string>
+    <string name="join_game_string">Join Game</string>
+    <string name="game_rate_string">Rate</string>
+    <string name="game_settings_string">Settings</string>
+
+    <!-- Friend List -->
+    <string name="frl_global_search">Global Search</string>
+    <string name="frl_friends">Friends</string>
+    <string name="frl_all_users">All Users</string>
+    <string name="frl_no_friends">Oops…\nYou don\'t have any friends,\ntap search icon to find them \nor invite new ones.</string>
+    <string name="frl_not_found_users">Sorry… no users</string>
+    <string name="frl_pending_status">Waiting…</string>
+    <string name="frl_pending_request_status">Pending contact request</string>
+    <string name="frl_column_header_name_requests">Requests</string>
+    <string name="frl_column_header_name_my_contacts">My Contacts</string>
+    <string name="frl_column_header_name_all_users">All Users</string>
+    <string name="frl_dlg_reject_friend">Do you really want to reject contact request from %1$s?</string>
+
+    <!-- Profile Setting -->
+    <string name="profile_log_out">Log Out</string>
+    <string name="profile_confirm">Confirm</string>
+    <string name="profile_back">Back to Main</string>
+    <string name="lgn_current_password_hint">Current Password</string>
+    <string name="lgn_new_password_hint">Enter New Password</string>
+    <string name="lgn_confirm_new_password_hint">Confirm New Password</string>
+
+    <!-- Chat -->
+    <string name="chat_message">Type Message</string>
+    <string name="send_button">Send</string>
+
+    <!-- Game Module -->
+    <string name="submit_button">Submit</string>
+    <string name="question_card_hint">Waiting for other players</string>
+    <string name="answer_card_hint">Write your response here. \nClick long and drag it to question card to send answer</string>
+    <string name="answer_drag_hint">Click long your favourite answer to drag and drop here</string>
+    <string name="no_answer">Waiting for answer</string>
+
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+
+    //Q
+    <string name="dlg_ok">OK</string>
+    <string name="dlg_cancel">Cancel</string>
+    <string name="dlg_attached_last_message">Attachment</string>
+    <string name="dlg_fail_send_msg">Errors occurred while sending msg! Please, try later</string>
+    <string name="dlg_fail_connection">Sorry, connection lost. It will be reestablished when the Internet will be available.</string>
+    <string name="dlg_not_joined_room">You have not joined chat room! Please wait…</string>
+    <string name="dlg_fail_create_groupchat">Errors occurred while creating group chat! Please, try later</string>
+    <string name="dlg_fail_create_chat">Errors occurred while creating chat! Please, try later</string>
+    <string name="dlg_fail_upload_attach">Errors occurred during loading file</string>
+    <string name="dlg_click_back_again">Please click BACK again to exit</string>
+    <string name="dlg_wait_please">Please, wait</string>
+    <string name="dlg_not_all_fields_entered">Please fill all empty input fields</string>
+    <string name="dlg_not_fullname_field_entered">Please enter Full Name</string>
+    <string name="dlg_not_email_field_entered">Please enter email</string>
+    <string name="dlg_not_password_field_entered">Please enter password</string>
+    <string name="dlg_passwords_not_equal">New password and confirmation are not equal</string>
+    <string name="dlg_old_password_wrong">Wrong old password</string>
+    <string name="dlg_empty_email">Email can\'t be empty</string>
+    <string name="dlg_done">Done</string>
+    <string name="dlg_user_updated">User saved</string>
+    <string name="dlg_logout">Logout</string>
+    <string name="dlg_confirm">Are you sure?</string>
+    <string name="dlg_password_changed">Password changed</string>
+    <string name="dlg_no_facebook_friends">No Facebook friends</string>
+    <string name="dlg_no_contacts_friends">No Contacts friends</string>
+    <string name="dlg_no_friends">No friends</string>
+    <string name="dlg_success_posted_to_facebook">Post was added to wall</string>
+    <string name="dlg_success_request_facebook">Request sent</string>
+    <string name="dlg_no_friends_selected">Please, select some Friends for invite!</string>
+    <string name="dlg_friend_removed">You have deleted %1$s from your contacts</string>
+    <string name="dlg_get_file_failed">Failed to get file from gallery</string>
+    <string name="dlg_no_friends_for_import">There are no friends in Q-municate app</string>
+    <string name="dlg_wrong_signaling">Can\'t perform call. Problem with signaling</string>
+    <string name="dlg_leave_group">Leave Group</string>
+    <string name="dlg_offline_call"> %1$s is calling you !</string>
+    <string name="dlg_no_message_yet">No message yet</string>
+    <string name="dlg_fail_rest_login">Couldn\'t authorize on server. Please check your credentials</string>
+    <string name="dlg_force_relogin_on_token_required">Token error is occured in application. Relogin will be executed now</string>
+    <string name="dlg_refresh_session">QB Session expired. Update session will be executed now</string>
+    <string name="videochat_init_fail">Unfortunately, call was closed! It is impossible to initialize multimedia resources on your device</string>
+    <string name="dlg_microphone_muted">Please, pay attention microphone is muted now</string>
+
+    <string name="error_bad_timestamp">base Bad timestamp</string>
+    <string name="error_bad_timestamp_from_app">Please go to phone system settings, choose date and time and make sure, that auto synchronization is on.</string>
+    <string name="error_email_already_taken">email has already been taken</string>
+    <string name="error_email_already_taken_from_app">Please go to Facebook app and make relogion. This email has already been taken</string>
+    <string name="error_email_already_taken_from_app_without_facebook">Email has already been taken</string>
+
+    <string name="frl_online">Online</string>
+    <string name="frl_offline">Offline</string>
+    <string name="frl_friends_request_message_for_friend">%1$s has sent a request to you</string>
+    <string name="frl_friends_request_message_for_me">Your request has been sent</string>
+    <string name="frl_friends_request_accept_message_for_friend">Your request has been accepted</string>
+    <string name="frl_friends_request_accept_message_for_me">You have accepted a request</string>
+    <string name="frl_friends_request_reject_message_for_friend">Your request has been rejected</string>
+    <string name="frl_friends_request_reject_message_for_me">You have rejected a request</string>
+    <string name="frl_friends_request_remove_message_for_friend">%1$s has deleted you from the contact list</string>
+    <string name="frl_friends_request_remove_message_for_me">You have deleted %1$s from the contact list</string>
+    <string name="frl_friends_contact_request">Contact request</string>
+
+    <string name="cht_update_group_create_message">%1$s has added %2$s</string>
+    <string name="cht_update_group_name_message">%1$s has changed the chat name to %2$s</string>
+    <string name="cht_update_group_photo_message">%1$s has changed the chat picture</string>
+    <string name="cht_update_group_added_message">%1$s has added %2$s to the group chat</string>
+    <string name="cht_update_group_leave_message">%1$s has left</string>
+    <string name="cht_notification_message">Notification message</string>
+
+    <string name="inf_url_to_facebook_avatar">https://graph.facebook.com/%1$s/picture?type=large</string>
+    <string name="file_was_attached">file was attached</string>
+    <string name="user_created_room">%1$s created group chat</string>
+
+    <!--Connectivity-->
+    <string name="connection_lost_title">Connection was lost</string>
+    <string name="connection_lost">Connection was lost. Please, check your internet connection</string>
+    <string name="feature_unavailable">Feature unavailable. Please, check  your internet connection</string>
+
+    <string-array name="friends_relation_statuses_array">
+        <item>none</item>
+        <item>to</item>
+        <item>both</item>
+        <item>from</item>
+        <item>remove</item>
+    </string-array>
+
+</resources>

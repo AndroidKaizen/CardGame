@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_alignParentLeft="true"
+            android:id="@+id/btn_nav_close"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="0dp"
+            android:src="@drawable/navigation_next_item"
+            android:scaleType="centerCrop" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/sizeNotifierLayout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/messageEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/chatSendButton"
+                android:inputType="textAutoComplete"
+                android:hint="@string/chat_message"/>
+
+            <Button
+                android:id="@+id/chatSendButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:text="@string/send_button"/>
+
+            <ListView
+                android:id="@+id/messagesContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/messageEdit"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentTop="false"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:divider="@null"
+                android:listSelector="@android:color/transparent"
+                android:transcriptMode="alwaysScroll"/>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <!--<FrameLayout-->
+            <!--android:id="@+id/frame"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="240dp"-->
+            <!--android:layout_alignParentBottom="true"/>-->
+    </RelativeLayout>
+</LinearLayout>
